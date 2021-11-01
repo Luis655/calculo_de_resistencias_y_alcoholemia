@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LightHistory.Application/1.0.0": {
+        "dependencies": {
+          "LightHistory.Domain": "1.0.0",
+          "LightHistory.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "LightHistory.Application.dll": {}
+        }
+      },
+      "LightHistory.Domain/1.0.0": {
+        "runtime": {
+          "LightHistory.Domain.dll": {}
+        }
+      },
+      "LightHistory.Infrastructure/1.0.0": {
+        "dependencies": {
+          "LightHistory.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LightHistory.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LightHistory.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LightHistory.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LightHistory.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
